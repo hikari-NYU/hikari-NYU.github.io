@@ -1,0 +1,20 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+$baseurl: "{{ site.url }}{{ site.baseurl }}";
+
+// @import "variables";
+@import "bootstrap/bootstrap";
+// @import "syntax-highlighting";
+@import "bootstrap-4-jekyll/bootstrap-4-jekyll";
+// @import "bootstrap_customization";
+@import "bootstrap";
+@import "SHB_css";
+.text-justify {
+  text-align: justify;
+}
+.no-index {
+	list-style-type: none;
+	padding-left: 5pt;
+}

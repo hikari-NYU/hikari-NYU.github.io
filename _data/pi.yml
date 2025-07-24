@@ -1,0 +1,27 @@
+- name: Weicheng Ma
+  photo: headshot.jpg
+  info: Research Associate, Dartmouth College
+  email: weicheng.ma.gr@dartmouth.edu
+  scholar: https://scholar.google.com/citations?user=njnBrb4AAAAJ
+  # cv: cv/cv.pdf
+  # Change the number below to the number of "educations" you have (up to 6)
+  number_educ: 3
+  education1: "(2019-2024) Ph.D. in CS, Dartmouth College"
+  education2: "(2013-2015) M.S. in CS, New York University"
+  education3: "(2009-2013) B.S. in CS, Communication University of China"
+  advisor1: "Prof. Soroush Vosoughi"
+  advisor2: "Prof. Ralph Grishman"
+  # education3: 
+  # education4: 
+  # education5: 
+  # education6: 
+  education1short: "(2024) Ph.D. in CS, Dartmouth"
+  education2short: "(2015) M.S. in CS, NYU"
+  education3short: "(2013) B.S. in CS, CUC"
+  # education4short: 
+  # education5short: 
+  # education6short: 
+  visiting1: "(2023-2024) Visiting Student Researcher, Stanford University"
+  visiting2: "(2023) Visiting Student Researcher, University of Illinois, Urbana-Champaign"
+  host1: "Prof. Diyi Yang"
+  host2: "Prof. Heng Ji"

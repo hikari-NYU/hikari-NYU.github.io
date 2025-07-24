@@ -1,54 +1,413 @@
-@incollection{example_invited_talk,
-  author = {J. Doe},
-  note = {Example Location},
-  publisher = {Example Talk Name},
-  year = {2040},
-  keywords = "invited",
+@inproceedings{yang-etal-2025-towards,
+    title = "What is it? Towards a Generalizable Native {A}merican Language Identification System",
+    author = "Yang, Ivory  and
+      Ma, Weicheng  and
+      Alvarez, Carlos Guerrero  and
+      Dinauer, William  and
+      Vosoughi, Soroush",
+    editor = "Ebrahimi, Abteen  and
+      Haider, Samar  and
+      Liu, Emmy  and
+      Haider, Sammar  and
+      Leonor Pacheco, Maria  and
+      Wein, Shira",
+    booktitle = "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 4: Student Research Workshop)",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.naacl-srw.10/",
+    doi = "10.18653/v1/2025.naacl-srw.10",
+    pages = "105--111",
+    ISBN = "979-8-89176-192-6",
+    abstract = "This paper presents a research thesis proposal to develop a generalizable Native American language identification system. Despite their cultural and historical significance, Native American languages remain entirely unsupported by major commercial language identification systems. This omission not only underscores the systemic neglect of endangered languages in technological development, but also highlights the urgent need for dedicated, community-driven solutions. We propose a two-pronged approach: (1) systematically curating linguistic resources across all Native American languages for robust training, and (2) tailored data augmentation to generate synthetic yet linguistically coherent training samples. As proof of concept, we extend an existing rudimentary Athabaskan language classifier by integrating Plains Apache, an extinct Southern Athabaskan language, as an additional language class. We also adapt a data generation framework for low-resource languages to create synthetic Plains Apache data, highlighting the potential of data augmentation. This proposal advocates for a community-driven, technological approach to supporting Native American languages.",
+    url={https://aclanthology.org/2025.naacl-srw.10.pdf}
+}
+@selected{ma2025communication,
+  title={Communication Makes Perfect: Persuasion Dataset Construction via Multi-LLM Communication},
+  author={Ma, Weicheng and Zhang, Hefan and Yang, Ivory and Ji, Shiyu and Chen, Joice and Hashemi, Farnoosh and Mohole, Shubham and Gearey, Ethan and Macy, Michael and Hassanpour, Saeed and others},
+  booktitle={Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)},
+  pages={4017--4045},
+  year={2025},
+  url={https://aclanthology.org/2025.naacl-long.203.pdf}
+}
+@inproceedings{yang2025navajo,
+  title={Is It Navajo? Accurate Language Detection for Endangered Athabaskan Languages},
+  author={Yang, Ivory and Ma, Weicheng and Zhang, Chunhui and Vosoughi, Soroush},
+  booktitle={Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers)},
+  pages={277--284},
+  year={2025},
+  url={https://aclanthology.org/2025.naacl-short.24.pdf}
+}
+@selected{yang2025nushurescue,
+  title={N{\"u}shurescue: Reviving the endangered n{\"u}shu language with ai},
+  author={Yang, Ivory and Ma, Weicheng and Vosoughi, Soroush},
+  booktitle={Proceedings of the 31st International Conference on Computational Linguistics},
+  pages={7020--7034},
+  year={2025},
+  url={https://aclanthology.org/2025.coling-main.468.pdf}
+}
+@inproceedings{zhang2024gpt,
+  title={Is gpt-4v (ision) all you need for automating academic data visualization? exploring vision-language models’ capability in reproducing academic charts},
+  author={Zhang, Zhehao and Ma, Weicheng and Vosoughi, Soroush},
+  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2024},
+  pages={8271--8288},
+  year={2024},
+  url={https://aclanthology.org/2024.findings-emnlp.485.pdf}
+}
+@article{ma2024exploration,
+  title={On the Exploration of LM-Based Soft Modular Robot Design},
+  author={Ma, Weicheng and Zhao, Luyang and She, Chun-Yi and Jiang, Yitao and Sun, Alan and Zhu, Bo and Balkcom, Devin and Vosoughi, Soroush},
+  journal={arXiv e-prints},
+  pages={arXiv--2411},
+  year={2024},
+  url={https://arxiv.org/pdf/2411.00345}
+}
+@selected{ma2024simulated,
+  title={Simulated misinformation susceptibility (smists): Enhancing misinformation research with large language model simulations},
+  author={Ma, Weicheng and Deng, Chunyuan and Moossavi, Aram and Wang, Lili and Vosoughi, Soroush and Yang, Diyi},
+  booktitle={Findings of the Association for Computational Linguistics ACL 2024},
+  pages={2774--2788},
+  year={2024},
+  url={https://aclanthology.org/2024.findings-acl.162.pdf}
+}
+@article {Wang2024.05.21.595047,
+  author = {Wang, Ruoyun and Ma, Weicheng and Mohammadi, Aryan Soltani and Shahsavari, Saba and Vosoughi, Soroush and Wang, Xiaofeng},
+  title = {Improving Cell-type-specific 3D Genome Architectures Prediction Leveraging Graph Neural Networks},
+  elocation-id = {2024.05.21.595047},
+  year = {2024},
+  doi = {10.1101/2024.05.21.595047},
+  publisher = {Cold Spring Harbor Laboratory},
+  abstract = {The mammalian genome organizes into complex three-dimensional structures, where interactions among chromatin regulatory elements play a pivotal role in mediating biological functions, highlighting the significance of genomic region interactions in biological research. Traditional biological sequencing techniques like HiC and MicroC, commonly employed to estimate these interactions, are resource-intensive and time-consuming, especially given the vast array of cell lines and tissues involved. With the advent of advanced machine learning (ML) methodologies, there has been a push towards developing ML models to predict genomic interactions. However, while these models excel in predicting interactions for cell lines similar to their training data, they often fail to generalize across distantly related cell lines or accurately predict interactions specific to certain cell lines. Identifying the potential oversight of excluding example genomic region interaction information from model inputs as a fundamental limitation, this paper introduces GRACHIP, a model rooted in graph neural network technology aiming to address this issue by incorporating detailed interaction information as a hint. Through extensive testing across various cell lines, GRACHIP not only demonstrates exceptional accuracy in predicting chromatin interaction intensity but showcases remarkable generalizability to cell lines not encountered during training. Consequently, GRACHIP emerges as a potent research tool, offering a viable alternative to conventional sequencing methods for analyzing the interactions and three-dimensional organization of mammalian genomes, thus alleviating the dependency on expensive and time-consuming biological sequencing techniques. It also offers an alternative way for researchers to investigate 3D chromatin interactions and simulate their changes in model systems to test their hypotheses.Competing Interest StatementThe authors have declared no competing interest.},
+  url = {https://www.biorxiv.org/content/early/2024/05/21/2024.05.21.595047},
+  eprint = {https://www.biorxiv.org/content/early/2024/05/21/2024.05.21.595047.full.pdf},
+  journal = {bioRxiv}
 }
 
-@software{example_software,
-  author = {J. Doe},
-  title = {Example software},
-  url = {https://example.com},
-  date = {2040},
+@inproceedings{wang2024enhancing,
+  title={Enhancing Network Role Modeling: Introducing Attributed Multiplex Structural Role Embedding for Complex Networks},
+  url={https://link.springer.com/chapter/10.1007/978-981-97-2253-2_24},
+  author={Wang, Lili and Huang, Chenghan and Yao, Ruiye and Gao, Chongyang and Ma, Weicheng and Vosoughi, Soroush},
+  booktitle={Pacific-Asia Conference on Knowledge Discovery and Data Mining},
+  pages={301--313},
+  year={2024},
+  organization={Springer}
 }
 
-@inproceedings{example_proceeding,
-    Author = {J. Doe},
-    Year = {2040},
-    Title = {Example title},
-    Booktitle = {Example Book},
-    Address = {Pasadena, CA},
-    file = {example_proceeding.pdf},
-    abstract = {Example abstract.},
+@inproceedings{wang2023hyperbolic,
+  title={Hyperbolic Node Structural Role Embedding},
+  url={https://ieeexplore.ieee.org/abstract/document/10411521},
+  author={Wang, Lili and Huang, Chenghan and Ma, Weicheng and Li, Zhongyang and Vosoughi, Soroush},
+  booktitle={2023 IEEE International Conference on Data Mining Workshops (ICDMW)},
+  pages={1162--1169},
+  year={2023},
+  organization={IEEE}
 }
 
-@incollection{example_conference,
-    author = {J. Doe},
-    title = {Example talk},
-    note = {Example Conference},
-    year = {2040},
+@inproceedings{ma2023intersectional,
+  title={Intersectional Stereotypes in Large Language Models: Dataset and Analysis},
+  author={Ma, Weicheng and Chiang, Brian and Wu, Tong and Wang, Lili and Vosoughi, Soroush},
+  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2023},
+  pages={8589--8597},
+  year={2023},
+  url={https://aclanthology.org/2023.findings-emnlp.575.pdf}
 }
 
-@unpublished{feynman06,
-    Author = {R. P. Feynman and J. M. Cline},
-    Title = {Feynman lectures on the strong interations},
-    Note = {arXiv:2006.08594},
-    doi = {2006.08594},
-    file = {feynman06.pdf},
-    abstract = {These twenty-two lectures, with exercises, comprise the extent of what was meant to be a full-year graduate-level course on the strong interactions and QCD, given at Caltech in 1987-88. The course was cut short by the illness that led to Feynman's death. Several of the lectures were finalized in collaboration with Feynman for an anticipated monograph based on the course. The others, while retaining Feynman's idiosyncrasies, are revised similarly to those he was able to check. His distinctive approach and manner of presentation are manifest throughout. Near the end he suggests a novel, nonperturbative formulation of quantum field theory in D dimensions. Supplementary material is provided in appendices and ancillary files, including verbatim transcriptions of three lectures and the corresponding audiotaped recordings.},
+@selected{ma2023intersectionals,
+  title={Intersectional Stereotypes in Large Language Models: Dataset and Analysis},
+  author={Ma, Weicheng and Chiang, Brian and Wu, Tong and Wang, Lili and Vosoughi, Soroush},
+  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2023},
+  pages={8589--8597},
+  year={2023},
+  url={https://aclanthology.org/2023.findings-emnlp.575.pdf}
 }
 
-@article{feynman1939forces,
-  title={Forces in molecules},
-  author={R. P. Feynman},
-  journal={Physical Review},
-  volume={56},
-  number={4},
-  pages={340},
-  year={1939},
-  doi={10.1103/PhysRev.56.340},
-  file={feynman39.pdf},
-  abstract={Formulas have been developed to calculate the forces in a molecular system directly, rather than indirectly through the agency of energy. This permits an independent calculation of the slope of the curves of energy vs. position of the nuclei, and may thus increase the accuracy, or decrease the labor involved in the calculation of these curves. The force on a nucleus in an atomic system is shown to be just the classical electrostatic force that would be exerted on this nucleus by other nuclei and by the electrons' charge distribution. Qualitative implications of this are discussed.},
+@inproceedings{ma2023deciphering,
+  title={Deciphering stereotypes in pre-trained language models},
+  author={Ma, Weicheng and Scheible, Henry and Wang, Brian and Veeramachaneni, Goutham and Chowdhary, Pratim and Sun, Alan and Koulogeorge, Andrew and Wang, Lili and Yang, Diyi and Vosoughi, Soroush},
+  booktitle={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+  pages={11328--11345},
+  year={2023},
+  url={https://aclanthology.org/2023.emnlp-main.697.pdf}
 }
+
+@selected{ma2023decipherings,
+  title={Deciphering stereotypes in pre-trained language models},
+  author={Ma, Weicheng and Scheible, Henry and Wang, Brian and Veeramachaneni, Goutham and Chowdhary, Pratim and Sun, Alan and Koulogeorge, Andrew and Wang, Lili and Yang, Diyi and Vosoughi, Soroush},
+  booktitle={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+  pages={11328--11345},
+  year={2023},
+  url={https://aclanthology.org/2023.emnlp-main.697.pdf}
+}
+
+@inproceedings{ma2023improving,
+  title={Improving Syntactic Probing Correctness and Robustness with Control Tasks},
+  author={Ma, Weicheng and Wang, Brian and Zhang, Hefan and Wang, Lili and Coto-Solano, Rolando and Hassanpour, Saeed and Vosoughi, Soroush},
+  booktitle={Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)},
+  pages={402--415},
+  year={2023},
+  url={https://aclanthology.org/2023.acl-short.35.pdf}
+}
+
+@selected{ma2023improvings,
+  title={Improving Syntactic Probing Correctness and Robustness with Control Tasks},
+  author={Ma, Weicheng and Wang, Brian and Zhang, Hefan and Wang, Lili and Coto-Solano, Rolando and Hassanpour, Saeed and Vosoughi, Soroush},
+  booktitle={Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)},
+  pages={402--415},
+  year={2023},
+  url={https://aclanthology.org/2023.acl-short.35.pdf}
+}
+
+@inproceedings{wang2023joint,
+  title={Joint Latent Topic Discovery and Expectation Modeling for Financial Markets},
+  author={Wang, Lili and Huang, Chenghan and Gao, Chongyang and Ma, Weicheng and Vosoughi, Soroush},
+  booktitle={Pacific-Asia Conference on Knowledge Discovery and Data Mining},
+  pages={45--57},
+  year={2023},
+  organization={Springer},
+  url={https://link.springer.com/chapter/10.1007/978-3-031-33380-4_4}
+}
+
+@inproceedings{wang2023graph,
+  title={Graph-Level Embedding for Time-Evolving Graphs},
+  author={Wang, Lili and Huang, Chenghan and Cao, Xinyuan and Ma, Weicheng and Vosoughi, Soroush},
+  booktitle={Companion Proceedings of the ACM Web Conference 2023},
+  pages={5--8},
+  year={2023},
+  url={https://dl.acm.org/doi/abs/10.1145/3543873.3587299}
+}
+
+@unpublished{kogay2023homology,
+  title={Homology detection using a protein secondary structure-based large language model},
+  author={Kogay, Roman and Ma, Weicheng and Bousselham, Jad and Yang, Zechen and Rockmore, Daniel and Zhaxybayeva, Olga and Vosoughi, Soroush},
+  journal={bioRxiv},
+  pages={2023--12},
+  year={2023},
+  publisher={Cold Spring Harbor Laboratory},
+  url={https://www.biorxiv.org/content/10.1101/2023.12.19.572443v1}
+}
+
+@inproceedings{huang2022learning,
+  title={Learning dynamic graph embeddings using random walk with temporal backtracking},
+  author={Huang, Chenghan and Wang, Lili and Cao, Xinyuan and Ma, Weicheng and Vosoughi, Soroush},
+  booktitle={NeurIPS 2022 Temporal Graph Learning Workshop},
+  year={2022},
+  url={https://openreview.net/pdf?id=Hze8Pa3BGV}
+}
+
+@inproceedings{hajjar2022dartmouthcs,
+  title={DartmouthCS at SemEval-2022 Task 8: Predicting Multilingual News Article Similarity with Meta-Information and Translation},
+  author={Hajjar, Joseph and Ma, Weicheng and Vosoughi, Soroush},
+  booktitle={Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022)},
+  pages={1157--1162},
+  year={2022},
+  url={https://aclanthology.org/2022.semeval-1.163.pdf}
+}
+
+@inproceedings{lad2022dartmouth,
+  title={Dartmouth at SemEval-2022 Task 6: Detection of Sarcasm},
+  author={Lad, Rishik and Ma, Weicheng and Vosoughi, Soroush},
+  booktitle={Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022)},
+  pages={912--918},
+  year={2022},
+  url={https://aclanthology.org/2022.semeval-1.128.pdf}
+}
+
+@inproceedings{guo2022measuring,
+  title={Measuring media bias via masked language modeling},
+  author={Guo, Xiaobo and Ma, Weicheng and Vosoughi, Soroush},
+  booktitle={Proceedings of the International AAAI Conference on Web and Social Media},
+  volume={16},
+  pages={1404--1408},
+  year={2022},
+  url={https://ojs.aaai.org/index.php/ICWSM/article/view/19396}
+}
+
+@inproceedings{ma2022encbp,
+  title={EnCBP: A New Benchmark Dataset for Finer-Grained Cultural Background Prediction in English},
+  author={Ma, Weicheng and Datta, Samiha and Wang, Lili and Vosoughi, Soroush},
+  booktitle={Findings of the Association for Computational Linguistics: ACL 2022},
+  pages={2811--2823},
+  year={2022},
+  url={https://aclanthology.org/2022.findings-acl.221.pdf}
+}
+
+@selected{ma2022encbps,
+  title={EnCBP: A New Benchmark Dataset for Finer-Grained Cultural Background Prediction in English},
+  author={Ma, Weicheng and Datta, Samiha and Wang, Lili and Vosoughi, Soroush},
+  booktitle={Findings of the Association for Computational Linguistics: ACL 2022},
+  pages={2811--2823},
+  year={2022},
+  url={https://aclanthology.org/2022.findings-acl.221.pdf}
+}
+
+@article{wang2021dynamic,
+  title={Dynamic structural role node embedding for user modeling in evolving networks},
+  author={Wang, Lili and Huang, Chenghan and Lu, Ying and Ma, Weicheng and Liu, Ruibo and Vosoughi, Soroush},
+  journal={ACM Transactions on Information Systems (TOIS)},
+  volume={40},
+  number={3},
+  pages={1--21},
+  year={2021},
+  publisher={ACM New York, NY},
+  url={https://dl.acm.org/doi/10.1145/3472955}
+}
+
+@inproceedings{wang2021graph,
+  title={Graph embedding via diffusion-wavelets-based node feature distribution characterization},
+  author={Wang, Lili and Huang, Chenghan and Ma, Weicheng and Cao, Xinyuan and Vosoughi, Soroush},
+  booktitle={Proceedings of the 30th ACM International Conference on Information \& Knowledge Management},
+  pages={3478--3482},
+  year={2021},
+  url={https://dl.acm.org/doi/abs/10.1145/3459637.3482115}
+}
+
+@inproceedings{wang2021embedding,
+  title={Embedding Node Structural Role Identity Using Stress Majorization},
+  author={Wang, Lili and Huang, Chenghan and Ma, Weicheng and Lu, Ying and Vosoughi, Soroush},
+  booktitle={Proceedings of the 30th ACM International Conference on Information \& Knowledge Management},
+  pages={3473--3477},
+  year={2021},
+  url={https://dl.acm.org/doi/10.1145/3459637.3482095}
+}
+
+@inproceedings{ma2021gradts,
+  title={GradTS: A Gradient-Based Automatic Auxiliary Task Selection Method Based on Transformer Networks},
+  author={Ma, Weicheng and Lou, Renze and Zhang, Kai and Wang, Lili and Vosoughi, Soroush},
+  booktitle={Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing},
+  pages={5621--5632},
+  year={2021},
+  url={https://aclanthology.org/2021.emnlp-main.455.pdf}
+}
+
+@selected{ma2021gradtss,
+  title={GradTS: A Gradient-Based Automatic Auxiliary Task Selection Method Based on Transformer Networks},
+  author={Ma, Weicheng and Lou, Renze and Zhang, Kai and Wang, Lili and Vosoughi, Soroush},
+  booktitle={Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing},
+  pages={5621--5632},
+  year={2021},
+  url={https://aclanthology.org/2021.emnlp-main.455.pdf}
+}
+
+@article{wang2021hyperbolic,
+  title={Hyperbolic node embedding for temporal networks},
+  author={Wang, Lili and Huang, Chenghan and Ma, Weicheng and Liu, Ruibo and Vosoughi, Soroush},
+  journal={Data Mining and Knowledge Discovery},
+  volume={35},
+  number={5},
+  pages={1906--1940},
+  year={2021},
+  publisher={Springer},
+  url={https://link.springer.com/article/10.1007/s10618-021-00774-4}
+}
+
+@inproceedings{ma2021contributions,
+  title={Contributions of Transformer Attention Heads in Multi-and Cross-lingual Tasks},
+  author={Ma, Weicheng and Zhang, Kai and Lou, Renze and Wang, Lili and Vosoughi, Soroush},
+  booktitle={Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)},
+  pages={1956--1966},
+  year={2021},
+  url={https://aclanthology.org/2021.acl-long.152.pdf}
+}
+
+@selected{ma2021contributionss,
+  title={Contributions of Transformer Attention Heads in Multi-and Cross-lingual Tasks},
+  author={Ma, Weicheng and Zhang, Kai and Lou, Renze and Wang, Lili and Vosoughi, Soroush},
+  booktitle={Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)},
+  pages={1956--1966},
+  year={2021},
+  url={https://aclanthology.org/2021.acl-long.152.pdf}
+}
+
+@inproceedings{wang2021embedding,
+  title={Embedding heterogeneous networks into hyperbolic space without meta-path},
+  author={Wang, Lili and Gao, Chongyang and Huang, Chenghan and Liu, Ruibo and Ma, Weicheng and Vosoughi, Soroush},
+  booktitle={Proceedings of the AAAI conference on artificial intelligence},
+  volume={35},
+  number={11},
+  pages={10147--10155},
+  year={2021},
+  url={https://ojs.aaai.org/index.php/AAAI/article/view/17217/17024}
+}
+
+@inproceedings{islam2021biggreen,
+  title={BigGreen at SemEval-2021 Task 1: Lexical Complexity Prediction with Assembly Models},
+  author={Islam, Aadil and Ma, Weicheng and Vosoughi, Soroush},
+  booktitle={Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)},
+  pages={667--677},
+  year={2021},
+  url={https://aclanthology.org/2021.semeval-1.86.pdf}
+}
+
+@inproceedings{khan2021lone,
+  title={Lone Pine at SemEval-2021 Task 5: Fine-Grained Detection of Hate Speech Using BERToxic},
+  author={Khan, Yakoob and Ma, Weicheng and Vosoughi, Soroush},
+  booktitle={Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)},
+  pages={967--973},
+  year={2021},
+  url={https://aclanthology.org/2021.semeval-1.132.pdf}
+}
+
+@inproceedings{ma2021improvements,
+  title={Improvements and Extensions on Metaphor Detection},
+  author={Ma, Weicheng and Liu, Ruibo and Wang, Lili and Vosoughi, Soroush},
+  booktitle={Proceedings of the 1st Workshop on Understanding Implicit and Underspecified Language},
+  pages={33--42},
+  year={2021},
+  url={https://aclanthology.org/2021.unimplicit-1.5.pdf}
+}
+
+@inproceedings{wang2020empirical,
+  title={An Empirical Survey of Unsupervised Text Representation Methods on Twitter Data},
+  author={Wang, Lili and Gao, Chongyang and Wei, Jason and Ma, Weicheng and Liu, Ruibo and Vosoughi, Soroush},
+  booktitle={Proceedings of the Sixth Workshop on Noisy User-generated Text (W-NUT 2020)},
+  pages={209--214},
+  year={2020},
+  url={https://aclanthology.org/2020.wnut-1.27.pdf}
+}
+
+@inproceedings{liu2020data,
+  title={Data Boost: Text Data Augmentation Through Reinforcement Learning Guided Conditional Generation},
+  author={Liu, Ruibo and Xu, Guangxuan and Jia, Chenyan and Ma, Weicheng and Wang, Lili and Vosoughi, Soroush},
+  booktitle={Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  year={2020},
+  organization={Association for Computational Linguistics},
+  url={https://aclanthology.org/2020.emnlp-main.726.pdf}
+}
+
+@inproceedings{ma2020multi,
+  title={Multi-resolution annotations for emoji prediction},
+  author={Ma, Weicheng and Liu, Ruibo and Wang, Lili and Vosoughi, Soroush},
+  booktitle={Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  pages={6684--6694},
+  year={2020},
+  url={https://aclanthology.org/2020.emnlp-main.542.pdf}
+}
+
+@unpublished{ma2020towards,
+  title={Towards improved model design for authorship identification: A survey on writing style understanding},
+  author={Ma, Weicheng and Liu, Ruibo and Wang, Lili and Vosoughi, Soroush},
+  journal={arXiv preprint arXiv:2009.14445},
+  year={2020},
+  url={https://arxiv.org/pdf/2009.14445}
+}
+
+@unpublished{ma2020emoji,
+  title={Emoji prediction: Extensions and benchmarking},
+  author={Ma, Weicheng and Liu, Ruibo and Wang, Lili and Vosoughi, Soroush},
+  journal={arXiv preprint arXiv:2007.07389},
+  year={2020},
+  url={https://arxiv.org/pdf/2007.07389}
+}
+
+@inproceedings{tian2019chimed,
+  title={ChiMed: A Chinese medical corpus for question answering},
+  author={Tian, Yuanhe and Ma, Weicheng and Xia, Fei and Song, Yan},
+  booktitle={Proceedings of the 18th BioNLP Workshop and Shared Task},
+  pages={250--260},
+  year={2019},
+  url={https://aclanthology.org/W19-5027.pdf}
+}
+
+
 
