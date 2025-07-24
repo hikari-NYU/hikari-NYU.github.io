@@ -1,0 +1,92 @@
+I"ð
+<div class="jumbotron">
+  <div class="row">
+    <div class="col-sm-4">
+      <p><img src="http://localhost:4000/images/headshot.jpg" width="100%" style="max-width:250px" /></p>
+    </div>
+    <div class="col-sm-8 col-xs-12">
+      <h3>Weicheng Ma</h3>
+      <h4><i>Research Associate, Dartmouth College</i></h4>
+      <!--   <a href="mailto:weicheng.ma.gr@dartmouth.edu" target="_blank"><i class="fa fa-envelope-square fa-3x"></i></a> 
+  
+   <a href="https://scholar.google.com/citations?user=njnBrb4AAAAJ" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i></a> 
+  
+   -->
+      <h5><i>Education:</i></h5>
+      <ul style="overflow: hidden; list-style-type: none; padding-left: 5pt;">
+  
+  
+  
+  <li> (2019&#8211;2024) Ph.D. in CS, Dartmouth College </li>
+  <ul><li> Advisor: Prof. Soroush Vosoughi </li></ul>
+  <li> (2013&#8211;2015) M.S. in CS, New York University </li>
+  <ul><li> Advisor: Prof. Ralph Grishman </li></ul>
+  <li> (2009&#8211;2013) B.S. in CS, Communication University of China </li>
+  
+  
+  
+  
+  </ul>
+      <h5><i>Visiting Experience:</i></h5>
+      <ul style="overflow: hidden; list-style-type: none; padding-left: 5pt;">
+    <li> (2023-2024) Visiting Student Researcher, Stanford University </li>
+    <ul> <li> Hosted by Prof. Diyi Yang </li> </ul>
+    <li> (2023) Visiting Student Researcher, University of Illinois, Urbana-Champaign </li>
+    <ul> <li> Hosted by Prof. Heng Ji </li> </ul>
+  </ul>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron">
+  <h3 id="grants">Grants</h3>
+  <h5 id="the-following-grants-i-helped-write-have-been-granted">The following grants I helped write have been granted:</h5>
+  <ul>
+
+ <li> Neukom CompX Faculty Grants, 2023. <em> Epigenomic-Trascriptomic Modeling with Multi-Omic Data and DNA Sequences Leveraging Graph Neural Networks </em> </li>
+ <ul style="overflow: hidden; list-style-type: none; padding-left: 5pt;"><li> PI(s): Xiaofeng Wang and Soroush Vosoughi </li></ul>
+
+ <li> Google Research Award, 2022. <em> Culture-Aware Language Models </em> </li>
+ <ul style="overflow: hidden; list-style-type: none; padding-left: 5pt;"><li> PI(s): Soroush Vosoughi </li></ul>
+
+ <li> Cisco Research Grant, 2022. <em> Personality-Aware Dialogue Generation </em> </li>
+ <ul style="overflow: hidden; list-style-type: none; padding-left: 5pt;"><li> PI(s): Soroush Vosoughi </li></ul>
+
+</ul>
+</div>
+
+<div class="jumbotron">
+  <h3 id="mentoring">Mentoring</h3>
+  <h5 id="the-following-students-are-currently-doing-research-under-my-supervision">The following students are currently doing research under my supervision:</h5>
+  <ul style="overflow: hidden; list-style-type: none; padding-left: 5pt;">
+
+ <li> <b>Ashna Ghanate</b> (since 04/2024) [Master's student, Dartmouth College] </li>
+
+ <li> <b>John Guerrerio</b> (since 03/2024) [Undergrad student, Dartmouth College] </li>
+
+ <li> <b>Zachary Stephens</b> (since 03/2024) [Undergrad student, Dartmouth College] </li>
+
+ <li> <b>James Quirk</b> (since 03/2024) [Undergrad student, Dartmouth College] </li>
+
+ <li> <b>Idil Sahin</b> (since 03/2024) [Undergrad student, Dartmouth College] </li>
+
+ <li> <b>Ahmed Elmi</b> (since 03/2024) [Undergrad student, Dartmouth College] </li>
+
+ <li> <b>Ram Gorthi</b> (since 03/2024) [Undergrad student, Dartmouth College] </li>
+
+ <li> <b>Chip Nguyen</b> (since 03/2024) [Undergrad student, Dartmouth College] </li>
+
+ <li> <b>Ethan Gearey</b> (since 07/2023) [Undergrad student, Dartmouth College] </li>
+
+ <li> <b>Brian Chiang</b> (since 02/2023) [Undergrad student, Dartmouth College] </li>
+
+ <li> <b>Tyler Vergho</b> (since 10/2023) [Master's student, Dartmouth College] </li>
+
+ <li> <b>Barkin Cavdaroglu</b> (since 09/2023) [Master's student, Dartmouth College] </li>
+
+ <li> <b>Kamakshi Moparthi</b> (since 09/2023) [Master's student, Dartmouth College] </li>
+
+</ul>
+</div>
+
+:ET
