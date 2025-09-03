@@ -1,3 +1,43 @@
+- name: Anusha Murali
+  location: Dartmouth College
+  degree: Master's
+  year: 08/2025
+  
+- name: Biyon Wanninayake
+  location: Dartmouth College
+  degree: Undergrad
+  year: 06/2025
+
+- name: Lorenzo Cuellar
+  location: Dartmouth College
+  degree: Undergrad
+  year: 06/2024
+
+- name: Stanley Chen
+  location: Dartmouth College
+  degree: Undergrad
+  year: 06/2024
+
+- name: Kason Sabazan-Chambers
+  location: Dartmouth College
+  degree: Undergrad
+  year: 04/2024
+
+- name: Joe Zhu
+  location: Georgia Institute of Technology
+  degree: Undergrad
+  year: 02/2025
+
+- name: Zishuo Wang
+  location: Georgia Institute of Technology
+  degree: Undergrad
+  year: 02/2025
+
+- name: Yahan Zheng
+  location: Dartmouth College
+  degree: Master's
+  year: 10/2024
+
 - name: Ashna Ghanate
   location: Dartmouth College
   degree: Master's
