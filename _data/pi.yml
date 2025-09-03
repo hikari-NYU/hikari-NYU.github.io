@@ -1,7 +1,8 @@
 - name: Weicheng Ma
   photo: headshot.jpg
   info: Assistant Professor, Oakland University <br />Visiting Scholar, Dartmouth College
-  email: weichengma@oakland.edu | weicheng.ma@dartmouth.edu
+  email: weichengma@oakland.edu
+  email2: weicheng.ma@dartmouth.edu
   scholar: https://scholar.google.com/citations?user=njnBrb4AAAAJ
   # cv: cv/cv.pdf
   # Change the number below to the number of "educations" you have (up to 6)
