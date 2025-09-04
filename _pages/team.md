@@ -50,6 +50,7 @@ permalink: /team/
 </div>
 <div class="col-sm-4 col-xs-12">
   <h4>{{ member.name }}</h4>
+  <h5>{{ member.affiliation }}<br></h5>
   <i>{{ member.info }}<br></i>
 
   {% if member.website %}<a href="{{ member.website }}" target="_blank"><i class="fa fa-home fa-2x"></i></a> {% endif %}
