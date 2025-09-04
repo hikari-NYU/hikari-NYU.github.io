@@ -72,7 +72,7 @@ permalink: /about/
 {% if site.data.grants %}
 <div class="jumbotron">
 ### Grants  
-##### The following grants I helped write have been granted:
+##### The following grants I helped write have been awarded:
 <ul>
 {% for grant in site.data.grants %}
  <li> {{ grant.name }} </li>
